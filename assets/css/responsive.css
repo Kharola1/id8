@@ -1,0 +1,107 @@
+/*
+ Table Of Contents
+ 1.) Media Query for Handheld Devices
+ 2.) Media Query for Tablet
+ 3.) Media Query for mobile
+ ===============================================*/
+/*
+ 1.) Media Query for Handheld Devices
+ ===============================*/
+ 
+@media only screen and (max-width: 1199px) {
+    
+}
+@media only screen and (max-width: 991px) {
+    .identity-sec .bg-effect {
+        background-attachment: unset;
+        background-size: 100% 100%;
+    }
+    .identity-sec .inner-div {
+        padding: 75px 0 254px 0;
+    }
+    .development-sec .bg-effect,
+    .services-sec .bg-effect {
+        background-attachment: unset;
+    }
+    .services-sec {
+        padding-top: 50px;
+    }
+    .services-sec .inner-div {
+        padding: 0 0 200px 0;
+    }
+    .requirement-sec .info {
+        padding: 30px 0 100px 50px;
+    }
+    .design-entity {
+        padding: 50px 0 100px;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .desc {
+        font-size: 2.3vw;
+    }
+    .identity-sec .bg-effect {
+        background-attachment: unset;
+        background-size: cover;
+        background-image:url('../images/mob-effect1.gif');
+    }
+    .identity-sec .inner-div {
+        padding: 75px 0 375px 0;
+    }
+    .development-sec {
+        padding-top: 60px;
+    }
+    .requirement-sec .info {
+        padding: 30px 0 20px 50px;
+    }
+    .design-entity {
+        padding: 50px 0 60px;
+    }
+    .secondry-footer {
+        min-height: 130px;
+    }
+    .requirement-sec .info {
+        padding-left: 0;
+    }
+    h2 {
+        font-size: 2.5vw;
+    }
+    .contact-wrp .conntact-item {
+        width: 250px;
+    }
+    .contact-wrp {
+        flex-flow: wrap;
+        justify-content: center;
+    }
+    .primary-footer .contact-links {
+        position: static;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-top: 25px;
+    }
+    .primary-footer .btns {
+        display: flex;
+       justify-content: center;
+       flex-flow: wrap;
+    }
+    .primary-footer .contact-links a {
+        padding: 5px 10px;
+    }
+    .banner-sec .cap-txt {
+        padding: 8px 0 8px 50px;
+    }
+    .header .navbar-light .navbar-nav .nav-link {
+        font-size: 3.55vw;
+    }
+    .header .navbar-light .navbar-brand {
+        width: 60px;
+    }
+    .requirement-sec .bg-effect {
+        background-image: url('../images/mob-mov-effect.gif');
+    }
+    .requirement-sec .inner-div {
+        padding: 55px 0 250px;
+    }
+}
